@@ -1,0 +1,47 @@
+#username_message {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 0;
+    padding: 10px;
+    width: 90%; 
+    margin-right: 0.5%;
+    padding: 3px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+#username_box{
+    border: 0;
+    padding: 10px;
+    width: 90%; 
+    margin-right: 0.5%;
+}
+#sendMessage {
+    width: 9%; 
+    background: rgb(130, 224, 255); 
+    border: none; 
+    padding: 10px; 
+}
+.channel{
+    color:#EF0D50;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+.message{
+    list-style-type: none;
+}
+.message_text{
+    color: #929D9E;
+}
+.message_sender{
+    color:#7F8688;
+    font-weight: bold;
+}
+body
+{
+    background-color: #E1F2F7 !important;
+    font-family: 'Do Hyeon', sans-serif !important;
+}
+form input {  }
+form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+#messages li:nth-child(odd) { background: rgb(195, 226, 252); }
